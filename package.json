@@ -1,7 +1,7 @@
 {
   "name": "liquidless-faker",
   "version": "1.0.0",
-  "description": "Shopify's Liquid template engine, but less powerful",
+  "description": "Faker.js filter for liquidless templates",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -25,7 +25,6 @@
   "homepage": "https://github.com/stepci",
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
-    "@types/flat": "^5.0.2",
     "@types/node": "^18.7.18",
     "liquidless": "^1.0.5",
     "ts-node": "^10.9.1",
