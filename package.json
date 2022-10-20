@@ -1,6 +1,6 @@
 {
   "name": "liquidless-faker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Faker.js filter for liquidless templates",
   "main": "dist/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.7.18",
-    "liquidless": "^1.0.5",
+    "liquidless": "^1.0.8",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3"
   },

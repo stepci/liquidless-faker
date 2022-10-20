@@ -10,10 +10,10 @@ Install the dependency from npm:
 npm i liquidless-faker
 ```
 
-Import the `faker` function
+Import the `fake` filter
 
 ```js
-import { faker } from 'liquidless-faker'
+import { fake } from 'liquidless-faker'
 ```
 
 ## Usage
@@ -21,9 +21,9 @@ import { faker } from 'liquidless-faker'
 **Example: Rendering a string**
 
 ```js
-renderTemplate('{{ lorem.lines | faker: 1 }}', {}, {
+renderTemplate('{{ lorem.lines | fake: 1 }}', {}, {
   filters: {
-    faker
+    fake
   }
 })
 ```

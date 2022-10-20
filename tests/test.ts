@@ -1,9 +1,9 @@
 import { renderTemplate } from 'liquidless'
-import { faker } from '../src'
+import { fake } from '../src'
 
-const string = renderTemplate('{{ lorem.lines | faker: 1 }}', {}, {
+const string = renderTemplate('{{ lorem.lines | fake: 1 }}', {}, {
   filters: {
-    faker
+    fake
   }
 })
 
