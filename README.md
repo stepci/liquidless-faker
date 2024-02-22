@@ -21,7 +21,7 @@ import { fake } from 'liquidless-faker'
 **Example: Rendering a string**
 
 ```js
-renderTemplate('{{ lorem.lines | fake: 1 }}', {}, {
+renderString('{{ lorem.lines | fake: 1 }}', {}, {
   filters: {
     fake
   }

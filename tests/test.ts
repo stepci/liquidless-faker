@@ -1,7 +1,7 @@
-import { renderTemplate } from 'liquidless'
+import { renderString } from 'liquidless'
 import { fake } from '../src'
 
-const string = renderTemplate('{{ lorem.lines | fake: 1 }}', {}, {
+const string = renderString('{{ lorem.lines | fake: 1 }}', {}, {
   filters: {
     fake
   }
